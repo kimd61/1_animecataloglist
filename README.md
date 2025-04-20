@@ -1,5 +1,6 @@
 <h1>prototype 1: anime catalog list (search and order only)</h1>
 <p>a simple web application that allows users to search for anime titles and explore the top-ranked series.</p>
+<img src="Screenshot 2025-04-19 212944.png"></img>
 
 <h2>features</h2>
 <ul>
