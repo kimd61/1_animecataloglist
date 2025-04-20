@@ -9,13 +9,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 #navbar {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
@@ -23,14 +23,14 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
     margin-left: 1rem;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #90caf9;
 }
 
 #search-section {
@@ -44,14 +44,16 @@ body {
     font-family: 'Poppins';
     flex-grow: 1;
     padding: 0.75rem;
-    border: 1px solid #ddd;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
     border-radius: 4px;
 }
 
 #search-button {
     padding: 0.75rem 1.5rem;
     background-color: #2c3e50;
-    color: white;
+    color: #e0e0e0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -73,9 +75,9 @@ body {
 }
 
 .anime-card {
-    background-color: white;
+    background-color: #1e1e1e;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
     overflow: hidden;
     transition: transform 0.3s ease;
     display: flex;
@@ -110,7 +112,7 @@ body {
     justify-content: space-between;
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
-    color: #666;
+    color: #aaa;
 }
 
 .anime-genres {
@@ -121,8 +123,8 @@ body {
 }
 
 .genre-tag {
-    background-color: #3498db;
-    color: white;
+    background-color: #90caf9;
+    color: #121212;
     padding: 0.25rem 0.5rem;
     border-radius: 12px;
     font-size: 0.8rem;
@@ -132,12 +134,12 @@ body {
     text-align: center;
     padding: 2rem;
     font-size: 1.2rem;
-    color: #2c3e50;
+    color: #90caf9;
 }
 
 .error-message {
-    background-color: #e74c3c;
-    color: white;
+    background-color: #e57373;
+    color: #121212;
     text-align: center;
     padding: 1rem;
 }
@@ -157,13 +159,13 @@ body {
 .pagination button {
     padding: 0.5rem 1rem;
     background-color: #2c3e50;
-    color: white;
+    color: #e0e0e0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .pagination button:disabled {
-    background-color: #95a5a6;
+    background-color: #555;
     cursor: not-allowed;
 }
